@@ -103,17 +103,17 @@ body{
     width: 100%;
     min-height: 4.6563rem;/* 298px */
     overflow: visible;
-    font-size: 14px;
+    font-size: 12px;
    background-color: #fff;
     border-top: 1px solid #ccc;
 }
 [data-dpr="2"]
 .main-content{
-    font-size: 28px;
+    font-size: 24px;
 }
 [data-dpr="3"]
 .main-content{
-    font-size: 42px;
+    font-size: 36px;
 }
 .m-content-top{
     height: 1.171875rem;/* 75px */
@@ -173,8 +173,8 @@ body{
 .course-name-join{
     display: table-cell;
     color: #646464;
-    height: .4688rem;
-    line-height: .4688rem;
+    height: .4rem;
+    line-height: .4rem;
     padding-left: .1525rem;
     vertical-align: middle;
 }
@@ -198,7 +198,7 @@ body{
     margin-right: .2344rem;
 }
 .course-join img{
-    width: .6563rem;
+    width: .6rem;
     height: auto; 
 }
 .join{
