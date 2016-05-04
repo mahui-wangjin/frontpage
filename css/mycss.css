@@ -150,7 +150,6 @@ body{
 }
 .m-c-l-text{
     display: table-cell;  
-    padding-left: .1562rem;/* 10px */
     box-sizing: border-box;
 }
 .course-title b {
