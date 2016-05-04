@@ -75,7 +75,8 @@ body{
     border-right:1px solid #ccc;
     vertical-align: middle; 
 }
-.nav-lis a{
+.nav-lis a {
+    display: block;
     text-decoration: none;
     color: #000;
 }
@@ -154,7 +155,7 @@ body{
 }
 .course-title b {
     display: inline-block;
-    width: 65%;
+    width: 60%;
     font-size: 12px;
 }
 
