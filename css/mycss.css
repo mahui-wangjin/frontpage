@@ -76,15 +76,16 @@ body{
     color: #000;
 }
 .title{
-    font-size: 16px;
+    padding-top: 3px;
+    font-size: 14px;
 }
 [data-dpr="2"]
 .title{
-    font-size: 32px;
+    font-size: 28px;
 }
 [data-dpr="3"]
 .title{
-    font-size: 48px;
+    font-size: 42px;
 }
 .nav-lis img{
     width: 1.4062rem;
@@ -136,7 +137,7 @@ body{
     height: 3.4531rem;
     padding: .3125rem;
     box-sizing: border-box;
-    vertical-align: middle;
+    vertical-align: top;
 }
 .m-c-l-img img{
     height: 2.9219rem;
@@ -149,13 +150,15 @@ body{
 }
 .time{
     color: #646464;
-    margin-left: .3rem;
+    float: right;
+    margin-right: .2344rem;
 }
 .course-name-join{
     display: table-cell;
     color: #646464;
     height: .4688rem;
     line-height: .4688rem;
+    padding-left: .1525rem;
     vertical-align: middle;
 }
 .course-name, .course-addr{
@@ -194,6 +197,9 @@ body{
     text-align: center;
     background-color: #fff;
     border-top: 1px solid #ccc;
+}
+.footer-nav a {
+    display: block;
 }
 .footer-nav div{
     border: none;
