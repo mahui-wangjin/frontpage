@@ -1,21 +1,132 @@
-<!doctype html>
-<html lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>伟贤颂</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>index</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"> -->
+    <!-- 移动端 -->
+    <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="js/Swiper-3.3.1/css/swiper.min.css">
+    <!-- Link mycss CSS -->
+    <link rel="stylesheet" type="text/css" href="css/mycss.css">
+    <script src="js/flexible.js"></script>
+</head>
+<body>
+    <!-- Swiper 顶部轮播头图 -->   
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/banner1.png"/></div>
+            <div class="swiper-slide"><img src="img/banner1.png"/></div>
+            <div class="swiper-slide"><img src="img/banner1.png"/></div>
+        </div>
+        <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+    </div>
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
-        <script type="text/javascript">
-        !function(a,b){function c(){var b=f.getBoundingClientRect().width;b/i>540&&(b=540*i);var c=b/10;f.style.fontSize=c+"px",k.rem=a.rem=c}var d,e=a.document,f=e.documentElement,g=e.querySelector('meta[name="viewport"]'),h=e.querySelector('meta[name="flexible"]'),i=0,j=0,k=b.flexible||(b.flexible={});if(g){console.warn("");var l=g.getAttribute("content").match(/initial\-scale=([\d\.]+)/);l&&(j=parseFloat(l[1]),i=parseInt(1/j))}else if(h){var m=h.getAttribute("content");if(m){var n=m.match(/initial\-dpr=([\d\.]+)/),o=m.match(/maximum\-dpr=([\d\.]+)/);n&&(i=parseFloat(n[1]),j=parseFloat((1/i).toFixed(2))),o&&(i=parseFloat(o[1]),j=parseFloat((1/i).toFixed(2)))}}if(!i&&!j){var p=a.navigator.userAgent,q=(!!p.match(/android/gi),!!p.match(/iphone/gi)),r=q&&!!p.match(/OS 9_3/),s=a.devicePixelRatio;i=q&&!r?s>=3&&(!i||i>=3)?3:s>=2&&(!i||i>=2)?2:1:1,j=1/i}if(f.setAttribute("data-dpr",i),!g)if(g=e.createElement("meta"),g.setAttribute("name","viewport"),g.setAttribute("content","initial-scale="+j+", maximum-scale="+j+", minimum-scale="+j+", user-scalable=no"),f.firstElementChild)f.firstElementChild.appendChild(g);else{var t=e.createElement("div");t.appendChild(g),e.write(t.innerHTML)}a.addEventListener("resize",function(){clearTimeout(d),d=setTimeout(c,300)},!1),a.addEventListener("pageshow",function(a){a.persisted&&(clearTimeout(d),d=setTimeout(c,300))},!1),"complete"===e.readyState?e.body.style.fontSize=12*i+"px":e.addEventListener("DOMContentLoaded",function(){e.body.style.fontSize=12*i+"px"},!1),c(),k.dpr=a.dpr=i,k.refreshRem=c,k.rem2px=function(a){var b=parseFloat(a)*this.rem;return"string"==typeof a&&a.match(/rem$/)&&(b+="px"),b},k.px2rem=function(a){var b=parseFloat(a)/this.rem;return"string"==typeof a&&a.match(/px$/)&&(b+="rem"),b}}(window,window.lib||(window.lib={}));
-        </script>
+    <!-- 内容区导航条-->
+    <nav class="main-nav">
+        <div class="col-4 nav-lis">
+            <a href="##">
+                <img src="img/nav1.png">
+                <div class="title">观看直播</div>
+            </a>
+        </div>        
+        <div class="col-4 nav-lis">
+            <a href="##">
+                <img src="img/nav2.png">
+                <div class="title">观看直播</div>
+            </a>
+        </div>
+        <div class="col-4 nav-lis nav-lis-last">
+            <a href="##">
+                <img src="img/nav3.png">
+                <div class="title">观看直播</div>
+            </a>
+        </div>
+    </nav> 
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
-    </body>
+    <!-- 课程内容区-->
+    <article class="main-content">
+        <div class="m-content-top">
+            线下课程
+        </div>
+        <div class="m-content-list">
+            <div class="m-c-l-img">
+                <a href="##"><img src="img/xxkc1.png"></a>
+            </div>
+            <div class="m-c-l-text">
+                <p class="course-title">
+                    <b>企业利润的GPS导航</b><span class="time">2016.04.15</span>
+                </p>
+                <div class="course-name">
+                    <img src="img/pp.png"><span class="course-name-join">课程主讲人：周立</span>
+                </div>
+                <div class="course-addr">
+                    <img src="img/ad.png"><span class="course-name-join">地点：上海</span>
+                </div>
+                <div class="course-join">
+                    <img src="img/bm.png"><span class="course-name-join">报名中</span>
+                </div>
+            </div>
+        </div>
+        <div class="m-content-list">
+            <div class="m-c-l-img">
+                <a href="##"><img src="img/xxkc1.png"></a>
+            </div>
+            <div class="m-c-l-text">
+                <p class="course-title">
+                    <b>企业利润的GPS导航</b><span class="time">2016.04.15</span>
+                </p>
+                <div class="course-name">
+                    <img src="img/pp.png"><span class="course-name-join">课程主讲人：周立</span>
+                </div>
+                <div class="course-addr">
+                    <img src="img/ad.png"><span class="course-name-join">地点：上海</span>
+                </div>
+                <div class="course-join">
+                    <img src="img/bm.png"><span class="course-name-join">报名中</span>
+                </div>
+            </div>
+        </div>        
+    </article>
+
+    <!-- 底部导航条-->
+    <footer class="footer-nav">
+        <div class="col-4 nav-lis">
+            <a href="##">
+                <img src="img/home.png">
+            </a>
+        </div>        
+        <div class="col-4 nav-lis">
+            <a href="##">
+                <img src="img/repeat.png">
+            </a>
+        </div>
+        <div class="col-4 nav-lis">
+            <a href="##">
+                <img src="img/self.png">
+            </a>
+        </div>    
+    </footer>    
+
+
+    <!-- Swiper JS -->
+    <script src="js/Swiper-3.3.1/js/swiper.min.js"></script>
+    <script src="js/jquery-1.12.2.min.js"></script>  
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        loop:true
+    });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+        $("#scal-ele").mouseover().addClass("active");
+        });
+    </script>
+</body>
 </html>
