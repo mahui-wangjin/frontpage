@@ -153,6 +153,8 @@ body{
     box-sizing: border-box;
 }
 .course-title b {
+    display: inline-block;
+    width: 65%;
     font-size: 12px;
 }
 
