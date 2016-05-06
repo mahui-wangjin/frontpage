@@ -12,7 +12,7 @@ body {
     -moz-box-sizing:border-box; /* Firefox */
     -webkit-box-sizing:border-box; /* Safari */
     overflow-x:hidden; 
-    padding-bottom: 100px;
+    padding-bottom: 130px;
 }
 [data-dpr="2"] 
 body{
@@ -228,6 +228,182 @@ body{
     width: auto;
 }
 
+.list-item {
+    width: 100%;
+    min-height: 100px;
+    position: relative;
+    background-image: url(../img/live001.jpg);
+    background-position: top left;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 0.2813rem;
+}
+
+.video-link {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.list-caption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 0.1563rem 0.2343rem;
+}
+
+.list-caption img {
+    display: block;
+}
+
+.logo-container,
+.details-container,
+.nice-container {
+    
+}
+
+.logo-container {
+    width: 1rem;
+    height: 1rem;
+    float: left;
+    background-image: url(../img/logo.png);
+    background-position: top left;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.details-container {
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+}
+
+.details-header {
+    font-size: 14px;
+}
+
+[data-dpr="2"] .details-header {
+    font-size: 28px;
+}
+
+[data-dpr="3"] .details-header {
+    font-size: 42px;
+}
+
+.details-plot {
+    margin-top: 0.1562rem;
+    overflow: hidden;
+}
+
+.details-plot .read,
+.details-plot .praise,
+.details-plot .published {
+    float: left;
+}
+
+.details-plot .praise,
+.details-plot .published {
+    margin-left: 0.5rem;
+}
+
+.read-icon,
+.praise-icon,
+.published-icon {
+    display: inline-block;
+    width: 0.3125rem;
+    height: 0.3125rem;
+    background-position: top left;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.read-num,
+.praise-num,
+.published-date {
+    display: inline-block;
+    margin-left: 0.1rem;
+    font-size: 12px;
+    font-weight: 400;
+    color: #333;
+}
+
+[data-dpr="2"] .read-num,
+[data-dpr="2"] .praise-num, 
+[data-dpr="2"] .published-date {
+    font-size: 24px;
+}
+
+[data-dpr="3"] .read-num,
+[data-dpr="3"] .praise-num, 
+[data-dpr="3"] .published-date {
+    font-size: 36px;
+}
+
+.read-icon {
+    background-image: url(../img/plot01.png);
+}
+
+.praise-icon {
+    background-image: url(../img/plot02.png);
+}
+
+.published-icon {
+    background-image: url(../img/plot03.png);
+}
+
+.nice-container {
+    float: right;
+    
+}
+
+.nice-container a {
+    padding-top: 0.2125rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    padding-bottom: 0.2rem;
+    display: block;
+    outline: none;
+}
+
+.nice-container .image-container {
+    width: 0.6093rem;
+    height: 0.7031rem;
+    background-image: url(../img/nice01.png);
+    background-position: top left;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.nice-container .image-container.praised {
+    background-image: url(../img/nice02.png);
+}
+.hidden-image {
+    display: none;
+    background-image: url(../img/nice02.png);
+}
+
+.loading {
+    width: 100%;
+    text-align: center;
+}
+
+.loading .image-wrapper {
+    display: inline-block;
+    height: 0.5rem;
+    width: 0.5rem;
+}
+
+.loading img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
 /*** 会员福利 ***/   
 .j-main{
     height: auto;
@@ -260,3 +436,4 @@ body{
     }
 }
 /*** 会员福利 ***/
+
