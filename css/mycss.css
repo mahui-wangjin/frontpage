@@ -148,7 +148,7 @@ body{
 }
 .m-c-l-img img{
     height: 2.9219rem;
-    width: auto;
+    width: 3.7656rem;
 }
 .m-c-l-text{
     display: table-cell;  
@@ -172,7 +172,7 @@ body{
     float: right;
     margin-right: .2344rem;
 }
-.course-join{
+.course-name-join{
     display: table-cell;
     color: #646464;
     height: .4rem;
