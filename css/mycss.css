@@ -9,6 +9,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
     overflow-x:hidden; 
     padding-bottom: 130px;
 }
@@ -104,7 +106,7 @@ body{
     min-height: 4.6563rem;/* 298px */
     overflow: visible;
     font-size: 12px;
-   background-color: #fff;
+    background-color: #fff;
     border-top: 1px solid #ccc;
 }
 [data-dpr="2"]
@@ -170,7 +172,7 @@ body{
     float: right;
     margin-right: .2344rem;
 }
-.course-name-join{
+.course-join{
     display: table-cell;
     color: #646464;
     height: .4rem;
@@ -400,4 +402,38 @@ body{
     height: auto;
     display: block;
 }
+
+
+/*** 会员福利 ***/   
+.j-main{
+    height: auto;
+    font-size: 16px;
+    box-sizing: border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
+    padding: .8031rem;/* 45px */
+}
+
+[data-dpr="2"] .j-main {
+    font-size: 32px;
+}
+[data-dpr="3"] .j-main {
+    font-size: 48px;
+}
+.j-button{
+    height: 1.25rem; 
+    max-width: 10.094rem;
+}
+.j-button img{
+    width: 100%;
+    height: auto;   
+}
+
+/* ipad屏幕大小及以上设备 */
+@media (min-width: 768px){
+    .j-main{
+        font-size: 18px;
+    }
+}
+/*** 会员福利 ***/
 
