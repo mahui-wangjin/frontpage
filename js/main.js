@@ -15,7 +15,7 @@ function getList(url, height, parentelem) {
 	    		for(i = 0; i < data.length; i++) {
 	    			console.log(data[i].video_url);
 	    			var praisedClass = data[i].user_praised === true ? 'praised' : '';
-		    		var str = '<div class="list-item" style="background-image:url(../img/'
+		    		var str = '<div class="list-item" style="background-image:url(./img/'
 		    		+ data[i].image
 		    		+ ')"><a class="video-link" href="'
 						+ data[i].video_url
