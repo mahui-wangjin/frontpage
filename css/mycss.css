@@ -3,15 +3,13 @@ html {
 }
 body {
     background: #F0F0F0;
-    font-family: "Microsoft Yahei";
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px;
     color: #000;
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
     -moz-box-sizing:border-box; /* Firefox */
     -webkit-box-sizing:border-box; /* Safari */
-    overflow-x:hidden; 
     padding-bottom: 130px;
 }
 [data-dpr="2"] 
@@ -23,6 +21,14 @@ body{
     font-size: 54px;
 }
 
+img {
+    border: none;
+}
+
+a img {
+    outline: none !important;
+    border: none !important;
+}
 .main-content-container {
     overflow-x: hidden;
 }
@@ -237,6 +243,7 @@ body{
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin-bottom: 0.2813rem;
+    box-shadow: 0px 3px 7px 3px rgba(0, 0, 0, 0.2);
 }
 
 .video-link {
@@ -437,3 +444,373 @@ body{
 }
 /*** 会员福利 ***/
 
+.replay_head {
+    display: table;
+    height: 1.21875rem;/* 78px */
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    font-size: 16px;
+}
+[data-dpr="2"] .replay_head {
+    font-size: 32px;
+}
+[data-dpr="3"] .replay_head {
+    font-size: 48px;
+}
+
+.replay_head a {
+  text-decoration: none;
+}
+.replay_video_img{
+    background-image:url(../img/video.png);
+}
+.replay_voice_img{
+    background-image:url(../img/voice.png);
+}
+.replay_video_img2{
+    background-image:url(../img/video1.png);
+}
+.replay_voice_img2{
+    background-image:url(../img/voice1.png);
+}
+
+.replay_voice_img {
+    display: inline-block;
+    width: 0.3125rem;
+    height: 0.4125rem;
+    background-position: top left;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    vertical-align:middle;
+}
+.replay_video_img{
+    display: inline-block;
+    width: 0.3555rem;
+    height: 0.4125rem;
+    background-position: top left;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    vertical-align:middle;
+}
+.replay_video,
+.replay_voice {
+    display: inline-block;
+    color: #333;
+    vertical-align:middle;
+    margin-right:2px;
+}
+#voice-container {
+    display:none;
+}
+
+.backToTop{
+    display: none;
+    position:absolute;
+    z-index:99;
+    bottom:1.750rem;
+    right:0.23rem;
+    position:fixed;
+    
+}
+.backToTop img{
+    width:0.9375rem;
+    height:0.9375rem;
+    opacity:0.3;
+}
+
+.signup-content-container {
+    position: relative;
+    margin: 1.8rem 0.7812rem;
+}
+
+.signup-title {
+    position: absolute;
+    right: 0;
+    top: -0.2rem;
+    width: 1.75rem;
+    border: 1px solid #e70012;
+    color: #e70012;
+    padding: 3px 5px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+[data-dpr="2"] .signup-title {
+    font-size: 28px;
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+
+[data-dpr="3"] .signup-title {
+    font-size: 42px;
+    padding: 9px 15px;
+    border-radius: 7px;
+}
+
+.signup-header {
+    font-size: 26px;
+    margin-bottom: 1.3rem;
+}
+
+.signup-header .signup-logo {
+    width: 2.34rem;
+    height: 2.34rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    background-image: url(../img/logo2.png);
+    background-position: top left;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.signup-header span {
+    display: block;
+    margin-bottom: 0.46rem;
+    text-align: center;
+    color: #e70012;
+}
+
+[data-dpr="2"] .signup-header {
+    font-size: 46px;
+}
+
+[data-dpr="3"] .signup-header {
+    font-size: 78px;
+}
+
+.phone-num,
+.verify-code {
+    overflow: hidden;
+    border-bottom: 1px solid #909090;
+}
+
+.signupform-wrapper input {
+    background: transparent;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+
+[data-dpr="2"] .signupform-wrapper input {
+    font-size: 28px;
+}
+
+[data-dpr="3"] .signupform-wrapper input {
+    font-size: 48px;
+}
+
+input, textarea, button {
+    font-family: inherit;
+}
+
+.signupform-wrapper button {
+    border: none;
+    outline: none;
+}
+
+.phone-num,
+.verify-code {
+    padding-bottom: 0.3rem;
+    margin-bottom: 0.4rem;
+}
+
+.phone-num div {
+    height: 1rem;
+}
+
+.phone-input {
+    float: left;
+    width: 100%;
+}
+
+.phone-input .input-inner-wrapper {
+    margin-left: 1.3rem;
+    margin-right: 3.1rem;
+}
+
+.phone-icon {
+    float: left;
+    width: 1.3rem;
+    margin-left: -100%;
+}
+
+.verify-phone {
+    float: left;
+    width: 3.1rem;
+    margin-left: -3.1rem;
+}
+
+.verify-btn {
+    width: 3.1rem;
+    height: 1rem;
+    border-radius: 5px;
+    background-color: #e70012;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.verify-btn.verify-disabled {
+    background-color: #cccccc;
+    color: #999;
+}
+
+[data-dpr="2"] .verify-btn {
+    font-size: 24px;
+}
+
+[data-dpr="3"] .verify-btn {
+    font-size: 48px;
+}
+
+.phone-num input {
+    display: block;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    margin-top: 0.1rem;
+}
+
+.phone-icon label {
+    display: block;
+    padding-top: 0.19rem;
+}
+
+.phone-icon span{
+    display: block;
+    width: 0.5rem;
+    height: 0.65rem;
+    margin-left: 0.3rem;
+    background-image: url(../img/mobile.png);
+    background-position: top left;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.verify-input,
+.verify-icon {
+    height: 1rem;
+}
+
+.verify-input {
+    float: left;
+    width: 100%;
+}
+
+.verify-inner-wrapper {
+    margin-left: 1.3rem;
+}
+
+.verify-icon {
+    float: left;
+    width: 1.3rem;
+    margin-left: -100%;
+}
+
+.verify-icon label {
+    display: block;
+    padding-top: 0.19rem;
+}
+
+.verify-icon span {
+    display: block;
+    width: 0.54rem;
+    height: 0.65rem;
+    margin-left: 0.3rem;
+    background-image: url(../img/verify.png);
+    background-position: top left;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.verify-code input {
+    display: block;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    margin-top: 0.1rem;
+}
+
+.submit-signup {
+    display: block;
+    width: 100%;
+    height: 1.25rem;
+    line-height: 1.25rem;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #e70012;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.submit-signup.disabled {
+    background-color: #cccccc;
+}
+
+[data-dpr="2"] .submit-signup {
+    font-size: 36px;
+}
+
+[data-dpr="3"] .submit-signup {
+    font-size: 54px;
+}
+
+.submit-icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 0.6rem;
+    height: 0.6rem;
+    margin-right: 0.47rem;
+    background-image: url(../img/submit.png);
+    background-position: top left;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.submit-text {
+    display: inline-block;
+    margin-top: -2px;
+    vertical-align: middle;
+}
+
+
+.mask {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.error-info {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -3.125rem;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    background-color: #fff;
+    color: #797979;
+    font-size: 16px;
+    width: 6.25rem;
+    padding: 0.5rem 0.7rem;
+}
+
+.error-info span {
+    display: block;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 0.2rem;
+}
+
+.error-info span:last-child {
+    margin-bottom: 0;
+}

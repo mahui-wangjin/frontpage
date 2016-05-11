@@ -1,0 +1,30 @@
+[
+	{
+		"image":"live001.jpg",
+		"title":"顶级商圈专属课堂，培养行业领袖视频",
+		"view":"241",
+		"praise_num":"79",
+		"date":"2016-05-01",
+		"user_praised":true,
+		"video_url": "http://www.baidu.com"
+	},
+	{
+		"image":"live001.jpg",
+		"title":"顶级商圈专属课堂，培养行业领袖",
+		"view":"241",
+		"praise_num":"79",
+		"date":"2016-08-01",
+		"user_praised":false,
+		"video_url": "http://www.zhihu.com"
+	},
+	{
+		"image":"live001.jpg",
+		"title":"顶级商圈专属课堂，培养行业领袖",
+		"view":"241",
+		"praise_num":"79",
+		"praise":"79",
+		"date":"2016-05-01",
+		"user_praised":true,
+		"video_url": "http://www.baidu.com"
+	}
+]
